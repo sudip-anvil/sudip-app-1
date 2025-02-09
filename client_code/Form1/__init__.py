@@ -17,5 +17,6 @@ class Form1(Form1Template):
         self.init_components(**properties)
 
     def edit_button_click(self, **event_args):
-      editing_form = MovieEdit(item = self.item)
+      editing_form = MovieEdit(item=self.item)
       alert(content=editing_form, large=True)
+      self.refresh_data_bindings()

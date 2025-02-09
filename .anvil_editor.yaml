@@ -7,4 +7,5 @@ unique_ids:
     MovieEdit: '1739114159913522489498684.31647'
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '173912007343019723673239.8014'

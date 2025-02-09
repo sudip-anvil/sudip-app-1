@@ -9,7 +9,7 @@ components:
   properties: {}
   type: ColumnPanel
 - data_bindings:
-  - {code: 'self.item[''movie_name'']', property: text, writeback: false}
+  - {code: 'self.item[''movie_name'']', property: text, writeback: true}
   layout_properties: {grid_position: 'NZNNEH,QVUDOL'}
   name: tb_movie_name
   properties: {}
@@ -19,7 +19,7 @@ components:
   properties: {text: Year of Release}
   type: Label
 - data_bindings:
-  - {code: 'self.item[''year'']', property: text, writeback: false}
+  - {code: 'self.item[''year'']', property: text, writeback: true}
   layout_properties: {grid_position: 'ZZFBKS,CTPRES'}
   name: tb_year_of_release
   properties: {text: '', type: number}
@@ -29,7 +29,7 @@ components:
   properties: {text: Director}
   type: Label
 - data_bindings:
-  - {code: 'self.item[''director'']', property: text, writeback: false}
+  - {code: 'self.item[''director'']', property: text, writeback: true}
   layout_properties: {grid_position: 'VOXVGP,VGSVUX'}
   name: tb_director
   properties: {text: ''}
@@ -39,7 +39,7 @@ components:
   properties: {text: Plot Summary}
   type: Label
 - data_bindings:
-  - {code: 'self.item[''summary'']', property: text, writeback: false}
+  - {code: 'self.item[''summary'']', property: text, writeback: true}
   layout_properties: {grid_position: 'HLEPPQ,RXTSHY'}
   name: tb_summary
   properties: {text: ''}

@@ -2,7 +2,6 @@ from ._anvil_designer import Form1Template
 from anvil import *
 from ..MovieEdit import MovieEdit
 
-
 class Form1(Form1Template):
     def __init__(self, **properties):
         self.item = {
@@ -19,4 +18,6 @@ class Form1(Form1Template):
     def edit_button_click(self, **event_args):
       editing_form = MovieEdit(item=self.item)
       alert(content=editing_form, large=True)
+      print(self.item)
       self.refresh_data_bindings()
+      print(self.item)

@@ -36,10 +36,11 @@ components:
     name: label_5
     properties: {text: Plot Summary}
     type: Label
-  - layout_properties: {grid_position: 'NQNAKW,ATGKNQ'}
-    name: label_9
-    properties: {}
-    type: Label
+  - event_bindings: {click: edit_button_click}
+    layout_properties: {grid_position: 'SANSDH,ODOSTW'}
+    name: edit_button
+    properties: {text: Edit Movie Information}
+    type: Button
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
